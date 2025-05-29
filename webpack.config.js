@@ -12,7 +12,7 @@ module.exports = {
       directory: path.join(__dirname),
     },
     compress: true,
-    port: 3000,
+    port: 8675,
     open: true,
     hot: true,
     liveReload: true,

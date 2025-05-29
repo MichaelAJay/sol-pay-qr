@@ -33,7 +33,7 @@ A simple webpage that generates a QR code for Solana Pay transactions.
    ```bash
    npm run dev
    ```
-   This will start a development server at http://localhost:3000 and automatically open your browser.
+   This will start a development server at http://localhost:8675 and automatically open your browser.
 
 3. **Edit the payment URL**: Open `app.js` and modify the `SOLANA_PAY_URL` constant with your desired Solana Pay URL. The page will automatically reload when you save the file.
 
