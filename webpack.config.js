@@ -14,6 +14,9 @@ module.exports = {
     compress: true,
     port: 3000,
     open: true,
+    hot: true,
+    liveReload: true,
+    watchFiles: ['*.js', '*.html'],
   },
   resolve: {
     fallback: {

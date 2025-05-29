@@ -1,7 +1,7 @@
 import { createQR } from '@solana/pay';
 
 // Static Solana Pay URL - replace this with your actual payment URL
-const SOLANA_PAY_URL = 'solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN?amount=0.01&label=Test%20Payment';
+const SOLANA_PAY_URL = 'solana:42ffzGdfamWaFob8D6vL3dEx61HzV6ptw2cqwFFKmWjZ?amount=0.011686&memo=3mvim8xDqbAgGn2B6af6aBV8ZHuR8HQRhz2qVQpwXaMwNkJ6DiAadiWUozc1';
 
 function generateQR() {
     const qrContainer = document.getElementById('qr-code');
